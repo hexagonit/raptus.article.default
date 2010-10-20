@@ -1,0 +1,9 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:zcml="http://namespaces.zope.org/zcml"
+    i18n_domain="raptus.article">
+      
+    <include package="raptus.article.core" file="overrides.zcml" />
+    <include package="raptus.article.hidecolumns" file="overrides.zcml" zcml:condition="installed raptus.article.hidecolumns" />
+
+</configure>
