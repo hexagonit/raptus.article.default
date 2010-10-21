@@ -14,7 +14,8 @@ Have a look at our developer documentation
 
 The following features for raptus.article are provided by this package:
 
-    * Install a default configuration:
+Packages
+--------
     * `raptus.article.listings <http://pypi.python.org/pypi/raptus.article.listings>`_
     * `raptus.article.gallery <http://pypi.python.org/pypi/raptus.article.gallery>`_
     * `raptus.article.links <http://pypi.python.org/pypi/raptus.article.links>`_
@@ -22,8 +23,8 @@ The following features for raptus.article are provided by this package:
     * `raptus.article.teaser <http://pypi.python.org/pypi/raptus.article.teaser>`_
     * `raptus.article.reference <http://pypi.python.org/pypi/raptus.article.reference>`_
 
-Dependencies:
-
+Dependencies
+------------
     * raptus.article.listings
     * raptus.article.gallery
     * raptus.article.links
@@ -88,11 +89,8 @@ a new content type called Article.
 
 Usage
 =====
-This short documentation provide only the range of standard default installation.
-For more information and how to use the other extensions please have a look on the
-`end-user documentations <http://...>`_ on plone.org. 
 
-1.) Add a new Article (Page) from the "Add new" menu.
+1.) Add a new Article from the "Add new" menu.
 
 - Provide a title for the new article.
 - Provide a description for the article.
@@ -115,85 +113,34 @@ Additional components
 raptus.article.default depends on the following packages and will install them accordingly:
 
 - `raptus.article.files <http://pypi.python.org/pypi/raptus.article.files>`_
-  (Integrate your files easy to article)
-
 - `raptus.article.gallery <http://pypi.python.org/pypi/raptus.article.gallery>`_
-  (The easy way to create a gallery in your article)
-  
 - `raptus.article.images <http://pypi.python.org/pypi/raptus.article.images>`_
-  (Give you the possibility to add links in your article)
-
 - `raptus.article.links <http://pypi.python.org/pypi/raptus.article.links>`_
-  (The easy way to create tables in your article)
-
 - `raptus.article.listings <http://pypi.python.org/pypi/raptus.article.listings>`_
-  (The easy way to list your subarticles)
-
 - `raptus.article.reference <http://pypi.python.org/pypi/raptus.article.reference>`_
-  (Give you the possibility to add internal and external references to article)
-
 - `raptus.article.teaser <http://pypi.python.org/pypi/raptus.article.teaser>`_
-  (Give you the possibility to display several components like article, image as teaser)
 
 The following additional packages are currently available for raptus.article and their zcml will be included
 by raptus.article.default and they will be installed if present.
 
 - `raptus.article.additionalwysiwyg <http://pypi.python.org/pypi/raptus.article.additionalwysiwyg/>`_
-  (Gives you the possibility to separate your text in e second WYSIWYG editor. So you can for example 
-  write text above and bellow an image.)
-  
 - `raptus.article.contentfader <http://pypi.python.org/pypi/raptus.article.contentfader>`_
-  (Give you the possibility to fade through your subcontents)
-  
 - `raptus.article.contentflow <http://pypi.python.org/pypi/raptus.article.contentflow>`_
-  (Browse throgh your subarticles as you know from iTunes)
-  
 - `raptus.article.fader <http://pypi.python.org/pypi/raptus.article.fader>`_
-  (Give you the possibility to fade through your images)
-  
 - `raptus.article.flash <http://pypi.python.org/pypi/raptus.article.flash>`_
-  (Integrate your flash files easy to article)
-  
 - `raptus.article.form <http://pypi.python.org/pypi/raptus.article.form>`_
-  (Integrate PloneFormGen for forms. Create your own forms in your article)
-  
 - `raptus.article.header <http://pypi.python.org/pypi/raptus.article.header>`_
-  (Define your own banner image for every article)
-  
 - `raptus.article.hidecolumns <http://pypi.python.org/pypi/raptus.article.hidecolumns>`_
-  (Give you the possibility to hide some rows in the table component of an article)
-  
 - `raptus.article.lightbox <http://pypi.python.org/pypi/raptus.article.lightbox>`_
-  (Give you the possibility to display your images in a lightbox)
-  
 - `raptus.article.lightboxgallery <http://pypi.python.org/pypi/raptus.article.lightboxgallery>`_
-  (Give you the possibility to display your galleries in a lightbox with a carousel bellow the images)
-  
 - `raptus.article.maps <http://pypi.python.org/pypi/raptus.article.maps>`_
-  (Integrate Plone Google Maps in your article)
-  
 - `raptus.article.media <http://pypi.python.org/pypi/raptus.article.media>`_
-  (Give you the possibility to add your own videos and audio files or to embedded one from 
-  video portals like youtube)
-  
 - `raptus.article.multilanguagefields <http://pypi.python.org/pypi/raptus.article.multilanguagefields>`_
-  (Give you the possibility to translate your article in several languages)
-  
 - `raptus.article.nesting <http://pypi.python.org/pypi/raptus.article.nesting>`_
-  (Give you the possibility to configure if your subarticle should be listed in a cowerflow, fader, etc.)
-  
 - `raptus.article.randomcontent <http://pypi.python.org/pypi/raptus.article.randomcontent>`_
-  (Give you the possibility to display your subarticles by random)
-  
 - `raptus.article.randomimage <http://pypi.python.org/pypi/raptus.article.randomimage>`_
-  (Give you the possibility to display your images by random)
-  
 - `raptus.article.table <http://pypi.python.org/pypi/raptus.article.table>`_
-  (The easy way to create tables in your article)
-  
 - `raptus.article.upload <http://pypi.python.org/pypi/raptus.article.upload>`_
-  (Create an upload tab for raptus.article. Use the product collective.uploadify and give you the
-  possibility to upload several files at the same time)
 
 Extend your article
 -------------------
@@ -206,7 +153,5 @@ if you are using raptus.article.default.
 Copyright and credits
 =====================
 
-raptus.article is copyrighted by raptus_, and licensed under the GPL. 
+raptus.article is copyrighted by `Raptus AG <http://raptus.com>`_ and licensed under the GPL. 
 See LICENSE.txt for details.
-
-.. _raptus: http://raptus.com/ 
