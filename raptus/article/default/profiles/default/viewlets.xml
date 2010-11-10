@@ -44,6 +44,7 @@
   <viewlet name="raptus.article.fader.full" insert-before="*" />
   <viewlet name="raptus.article.flash.full" insert-before="*" />
   <viewlet name="raptus.article.maps.full" insert-before="*" />
+  <viewlet name="raptus.article.contentswitcher" insert-before="*" />
   <viewlet name="raptus.article.contentfader" insert-before="*" />
   <viewlet name="raptus.article.contentflow" insert-before="*" />
   <viewlet name="raptus.article.media.audio" insert-before="*" />
@@ -54,6 +55,7 @@
  <order manager="plone.portaltop" skinname="*">
   <viewlet name="raptus.article.lightbox.teaser" insert-after="*" />
   <viewlet name="raptus.article.contentfader.teaser" insert-after="*" />
+  <viewlet name="raptus.article.contentswitcher.teaser" insert-after="*" />
   <viewlet name="raptus.article.contentflow.teaser" insert-before="*" />
   <viewlet name="raptus.article.fader.teaser" insert-after="*" />
   <viewlet name="raptus.article.flash.teaser" insert-after="*" />

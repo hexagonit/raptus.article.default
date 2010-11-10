@@ -141,6 +141,7 @@ by raptus.article.default and they will be installed if present.
 - `raptus.article.randomimage <http://pypi.python.org/pypi/raptus.article.randomimage>`_
 - `raptus.article.table <http://pypi.python.org/pypi/raptus.article.table>`_
 - `raptus.article.upload <http://pypi.python.org/pypi/raptus.article.upload>`_
+- `raptus.article.contentswitcher <http://pypi.python.org/pypi/raptus.article.contentswitcher>`_
 
 Extend your article
 -------------------
