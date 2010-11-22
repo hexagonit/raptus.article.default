@@ -1,6 +1,11 @@
 Changelog
 =========
 
+2.0b6 (2010-11-22)
+------------------
+
+* Added raptus.article.discussion optional dependency
+
 2.0b5 (2010-11-10)
 ------------------
 

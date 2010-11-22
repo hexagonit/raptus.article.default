@@ -19,6 +19,7 @@ DEPENDENCIES = (
     'raptus.article.multilanguagefields',
     'raptus.article.table',
     'raptus.article.contentswitcher',
+    'raptus.article.discussion',
     'raptus.backlink',
 )
 
