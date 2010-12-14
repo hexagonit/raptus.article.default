@@ -1,6 +1,11 @@
 Changelog
 =========
 
+2.0b6 (2010-12-14)
+------------------
+
+* Include overrides for raptus.article.maps optional dependency
+
 2.0b6 (2010-11-22)
 ------------------
 
