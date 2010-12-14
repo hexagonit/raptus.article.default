@@ -4,6 +4,7 @@
     i18n_domain="raptus.article">
       
     <include package="raptus.article.core" file="overrides.zcml" />
+    <include package="raptus.article.maps" file="overrides.zcml" zcml:condition="installed raptus.article.maps" />
     <include package="raptus.article.hidecolumns" file="overrides.zcml" zcml:condition="installed raptus.article.hidecolumns" />
 
 </configure>
