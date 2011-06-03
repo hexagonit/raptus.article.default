@@ -34,6 +34,7 @@
     <include package="raptus.article.contentswitcher" zcml:condition="installed raptus.article.contentswitcher" />
     <include package="raptus.article.discussion" zcml:condition="installed raptus.article.discussion" />
     <include package="raptus.article.mapsjunaio" zcml:condition="installed raptus.article.mapsjunaio" />
+    <include package="raptus.article.backlink" zcml:condition="installed raptus.article.backlink" />
     <include package="raptus.backlink" zcml:condition="installed raptus.backlink" />
 
     <!-- Register the installation GenericSetup extension profile -->

@@ -11,6 +11,7 @@
   <viewlet name="raptus.article.related" insert-before="*" />
   <viewlet name="raptus.article.forms" insert-before="*" />
   <viewlet name="raptus.article.table.full" insert-before="*" />
+  <viewlet name="raptus.article.backlink" insert-after="*" />
  </order>
 
  <order manager="plone.abovecontenttitle" skinname="*">

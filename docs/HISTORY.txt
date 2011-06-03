@@ -1,6 +1,10 @@
 Changelog
 =========
 
+2.0b7 (2011-06-03)
+------------------
+
+* Added raptus.article.backlink optional dependency
 
 2.0b6 (2011-04-02)
 ------------------
